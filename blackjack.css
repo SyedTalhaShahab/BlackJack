@@ -1,46 +1,53 @@
 body {
+    background-image: url("background.png");
+    background-size: cover; /* Adjust this to 'contain' if you want the image to fit within the view */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center center; /* Center the image */
+}
+
+
+
+/* Styling for the entire webpage */
+body {
     font-family: Arial, Helvetica, sans-serif;
+    /* Set the font family for the entire page */
     text-align: center;
-    background-color: #f0f8ff; /* Light blue background */
-    color: #333333; /* Dark gray text */
+    /* Center-align text within the body */
+    background-color: #f0f0f0;
+    /* Light gray background */
+    color: #050f34;
+    /* Dark gray text color */
 }
 
-#dealer-cards img {
-    height: 175px;
-    width: 125px;
-    margin: 1px;
-    border: 2px solid #4682b4; /* Steel blue border */
-}
-
+/* Styling for images representing dealer's cards */
+#dealer-cards img,
+/* Styling for images representing player's cards */
 #your-cards img {
     height: 175px;
+    /* Set the height of card images */
     width: 125px;
+    /* Set the width of card images */
     margin: 1px;
-    border: 2px solid #4682b4; /* Steel blue border */
+    /* Set margin around card images */
 }
 
-#hit {
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-    background-color: #32cd32; /* Lime green background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-}
-
+/* Styling for hit and stay buttons */
+#hit,
 #stay {
     width: 100px;
+    /* Set the width of buttons */
     height: 50px;
+    /* Set the height of buttons */
     font-size: 20px;
-    background-color: #ff6347; /* Tomato red background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-}
-
-#hit:hover, #stay:hover {
-    opacity: 0.8; /* Slightly transparent on hover */
+    /* Set font size of button text */
+    background-color: #1d4b7c;
+    /* Blue button background color */
+    color: #fff;
+    /* White button text color */
+    border: none;
+    /* Remove border around buttons */
+    border-radius: 5px;
+    /* Set border radius for rounded corners */
+    margin: 5px;
+    /* Set margin around buttons */
 }
