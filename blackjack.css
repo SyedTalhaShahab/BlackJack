@@ -1,3 +1,11 @@
+body {
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Styling for the entire webpage */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -6,7 +14,7 @@ body {
     /* Center-align text within the body */
     background-color: #f0f0f0;
     /* Light gray background */
-    color: #050f34;
+    color: #ffffff;
     /* Dark gray text color */
 }
 
@@ -31,7 +39,7 @@ body {
     /* Set the height of buttons */
     font-size: 20px;
     /* Set font size of button text */
-    background-color: #1d4b7c;
+    background-color: #0f1821;
     /* Blue button background color */
     color: #fff;
     /* White button text color */
