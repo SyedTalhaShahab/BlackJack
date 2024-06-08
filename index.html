@@ -1,25 +1,49 @@
+<!-- https://cardscans.piwigo.com/index?/category/1397-bicycle_astronomy -->
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Black Jack</title>
-        <link rel="stylesheet" href="blackjack.css">
-        <script src="blackjack.js"></script>
-    </head>
 
-    <body>
-        <h2>Dealer: <span id="dealer-sum"></span></h2>
-        <div id="dealer-cards">
-            <img id="hidden" src="./cards/BACK.png">
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="blackjack.css">
+    <script src="blackjack.js"></script>
+</head>
 
-        <h2>You: <span id="your-sum"></span></h2>
-        <div id="your-cards"></div>
+<body>
+    <div class="background-image">
 
-        <br>
-        <button id="hit">Hit</button>
-        <button id="stay">Stay</button>
-        <p id="results"></p>
-    </body>
+    </div>
+    <h2>Dealer: <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards">
+        <img id="hidden" src="./cards/BACK.png">
+    </div>
+
+    <h2>You: <span id="your-sum"></span></h2>
+
+
+
+
+    <div id="your-cards"></div>
+
+    <br>
+    <button id="hit">Hit</button>
+    <button id="stay">Stay</button>
+    <p id="results"></p>
+</body>
+<!-- <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .background-image {
+        background-image: url("background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100vh;
+        height: 100vh;
+    }
+</style> -->
+
 </html>
