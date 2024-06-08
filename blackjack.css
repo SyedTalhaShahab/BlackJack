@@ -4,7 +4,6 @@ body {
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center center; /* Center the image */
     background-size: cover;
-    background-attachment: fixed;
     
     
 }
