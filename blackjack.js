@@ -8,7 +8,7 @@ let yourAceCount = 0;
 let hidden;
 let deck;
 
-let canHit = true; //allows the player (you) to draw while yourSum <= 21
+let canHit = true; //allows the player to draw while yourSum <= 21
 
 let values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 let types = ["C", "D", "H", "S"];
@@ -152,7 +152,7 @@ function reduce_ace(playerSum, player_ACE_Count) {
     return playerSum;
 }
 
-/*                                  DOUCMENTATION
+/*                                  
 
 
 
