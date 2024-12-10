@@ -22,28 +22,23 @@
 
     <h2>You: <span id="your-sum"></span></h2>
 
-
-
-
     <div id="your-cards"></div>
 
-    <br>
     <button id="hit">Hit</button>
     <button id="stay">Stay</button>
+
+    <div>
+        <button id="resetButton">Restart Game</button>
+    </div>
+
     <p id="results"></p>
+    <div id="result-message"></div>
+
 </body>
-<!-- <style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    .background-image {
-        background-image: url("background.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 100vh;
-        height: 100vh;
-    }
-</style> -->
+<script>
+    document.getElementById("resetButton").addEventListener("click", function () {
+        location.reload(true); // Reloads the current page
+    });
+</script>
 
 </html>
