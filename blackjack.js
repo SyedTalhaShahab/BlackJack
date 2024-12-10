@@ -1,4 +1,3 @@
-
 let DS = 0;
 let YS = 0;
 
@@ -68,7 +67,7 @@ function game_starter() {
     // console.log(yourSum);
     document.getElementById("hit").addEventListener("click", letter_hit);
     document.getElementById("stay").addEventListener("click", stay_function_part1);
-
+    document.getElementById("resetButton").addEventListener("click", resetGame);
 }
 
 // the function checks if it can hit before executing the code inside the if block, which is the reverse of the initial implementation.
@@ -118,7 +117,8 @@ function stay_function_part1() {
 
     document.getElementById("dealer-sum").innerText = DS;
     document.getElementById("your-sum").innerText = YS;
-    document.getElementById("results").innerText = message;
+    document.getElementById("result-message").innerText = message;
+
 }
 
 
@@ -138,7 +138,7 @@ function get_the_value(card) {
 }
 
 
-    // use a ternary operator for a more concise implementation:
+// use a ternary operator for a more concise implementation:
 function check_ace(card) {
     return card[0] === "A" ? 1 : 0;
 }
@@ -152,10 +152,8 @@ function reduce_ace(playerSum, player_ACE_Count) {
     return playerSum;
 }
 
-/*                                  
 
-
-
+/*
 Initialization and Global Variables:
 
 Variables like DS (Dealer's sum), YS (Your sum), dealerAceCount, and yourAceCount track the current game state.
